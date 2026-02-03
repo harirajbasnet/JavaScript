@@ -16,8 +16,8 @@ function addTask() {
         span.innerHTML = "\u00d7"; // Fixed unicode to \u00d7
         li.appendChild(span);
         
-        // Clear input and save data AFTER adding the task
-        inputBox.value = "";
+       
+        inputBox.value = "";// list ma add gareko kura lai add button garesii ferii input box lai khali garna lai 
         saveData(); 
     }
 }
